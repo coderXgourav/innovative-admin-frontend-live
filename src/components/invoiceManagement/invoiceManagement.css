@@ -1,0 +1,19 @@
+
+@font-face {
+    font-family: "yellowTail";
+    src: url(../../assets/fonts/Yellowtail-Regular.ttf);
+}
+
+.invoice_ship_to{
+    margin-left: 18rem !important;;
+}
+
+.invoice_ship_to_desc{
+    margin-left: 12.2rem  !important;;
+}
+
+.invoice_thank_you{
+font-family: "yellowTail";
+color:black ;
+zoom:3.5
+}

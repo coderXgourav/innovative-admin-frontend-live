@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Reddit+Mono:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Reddit+Mono:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Hind:wght@300;400;500;600;700&family=Reddit+Mono:wght@200..900&display=swap');
+
+@font-face {
+    font-family: "halvetica";
+    src: url(../../assets/fonts/Helvetica.ttf);
+}
+
+@font-face {
+    font-family: "times new roman";
+    src: url(../../assets/fonts/times\ new\ roman.ttf);
+}
+
+.View_file_template_exam_name_main {
+    width: 100%;
+
+}
+
+.View_file_template_exam_name_text {
+    color: #FFF;
+    font-family: "Exo 2";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 15%;
+}
+
+.View_file_template_exam_desc_main {
+    width: 100%;
+
+}
+
+.View_file_template_exam_desc_text {
+    color: #FFF;
+    font-family: Hind;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 15%;
+    margin-left: 2rem;
+}
+
+.View_file_template_pdf_watermark {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(327deg);
+    opacity: 0.1;
+    font-size: 5rem;
+    color: #fa0505;
+    font-family: "halvetica"
+}
+
+.View_file_template_pdf_page_no {
+    position: absolute;
+    top: 97%;
+    left: 66%;
+    font-family: "times new roman";
+    opacity: 8;
+    color: blue;
+     white-space: nowrap;
+}
+
+.View_file_template_pdf_prev_btn{
+    background-color: #fa0505;
+    
+}
+
+.View_file_template_pdf_next_btn{
+    background-color: greenyellow;
+    
+}
+
+.View_file_template_pdf_logo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 42px;
+    width: 70px;
+    opacity:100;
+    margin-left: 25%;
+}
+.View_file_boxes{
+     box-shadow: 10px 10px rgba(79, 79, 79, 0.2);
+}

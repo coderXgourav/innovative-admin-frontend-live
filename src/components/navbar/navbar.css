@@ -1,0 +1,46 @@
+
+.menuContainer{
+    width: 100%;
+    min-height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    z-index: 10;
+}
+.menuContainerLeft{
+    width: 70%;
+    min-height: 100vh;
+    background-color: #212529;
+}
+.menuContainerRight{
+    width: 30%;
+    min-height: 100vh;
+    background-color: black;
+    opacity: 0.5;
+}
+.headernavbar{
+    border-bottom: 2px solid black;
+}
+.account_icon{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px){
+    #navLargeScreenBar{
+        display: none;
+    }
+    #navMobileBar{
+        display: contents;
+
+    }
+}
+@media screen and (min-width: 769px){
+    #navMobileBar{
+        display: none;
+    }
+    #navLargeScreenBar{
+        display: contents;
+    }
+}
+

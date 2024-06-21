@@ -1,0 +1,10 @@
+.Purchase_order_logo_container{
+  width: 30%; 
+  height: 30%; 
+  overflow: hidden; 
+}
+
+.Purchase_order_logo_container img {
+    width: 50%; 
+    height: auto;
+  }

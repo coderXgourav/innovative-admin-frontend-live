@@ -1,0 +1,21 @@
+
+
+
+.admin__login_container{
+background-color: #161313;
+height: 25rem;
+width: 23rem;
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+border-radius: 1rem;
+transition: opacity 1s;
+animation: borderAnimation 3s infinite alternate;
+}
+
+@keyframes borderAnimation {
+    0%{
+        border:2px solid  #007bbf               
+    }
+    100%{
+        border:2px solid  #f3eff3               
+    }
+}
